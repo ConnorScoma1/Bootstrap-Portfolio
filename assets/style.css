@@ -1,3 +1,7 @@
+body {
+    animation: ease totalAnimation 1.5s;
+}
+
 .foot-bg {
     background: #2a2a2a;
 }
@@ -34,3 +38,13 @@
     }  
 }
 
+@keyframes totalAnimation {
+    0% {
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
