@@ -2,6 +2,15 @@ body {
     animation: ease totalAnimation 1.5s;
 }
 
+.my-img {
+    transition: ease .4s;
+    cursor: pointer;
+}
+
+.my-img:hover {
+    opacity: .6;
+}
+
 .foot-bg {
     background: #2a2a2a;
 }
@@ -29,6 +38,19 @@ body {
 
 .right-s-border {
     border-left: 3px solid white;
+}
+
+.title-adj {
+    background: #3a3a3a;
+    color: white;
+    cursor: pointer;
+    transition: ease .4s;
+    margin-bottom: 2rem;
+}
+
+.title-adj:hover {
+    background: white;
+    color: #3a3a3a;
 }
 
 @media(max-width: 600px) {
