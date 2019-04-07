@@ -27,4 +27,10 @@
     border-left: 3px solid white;
 }
 
+@media(max-width: 600px) {
+    .right-s-border {
+        border-left: none;
+        border-top: 2px solid white;
+    }  
+}
 
