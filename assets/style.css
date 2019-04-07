@@ -13,6 +13,7 @@ body {
 
 .foot-bg {
     background: #2a2a2a;
+    margin-top: 5vh;
 }
 
 .my-nav-parent {
@@ -55,6 +56,10 @@ body {
 
 .a-target a {
     text-decoration: none;
+}
+
+.my-contact {
+    margin-top: 5vh;
 }
 
 @media(max-width: 600px) {
